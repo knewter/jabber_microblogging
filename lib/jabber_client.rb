@@ -19,6 +19,7 @@ class JabberClient
         { :from => message.from.to_s.gsub(/'/, ''), :content => message.body.gsub(/'/, '') } # FIXME: Need to keep tickmarks at some point.
       end
       the_messages.each do |message|
+        puts "Creating a message for: " + message.inspect
         MicroblogPost.create(message)
       end
     end
