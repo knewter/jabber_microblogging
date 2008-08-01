@@ -16,3 +16,6 @@ potential, do the following:
   >> j.handle_async_messaging
 
 The thread will then enter a loop, so leave the console.  Send a message to your jabber user, and observe as your site gets updated.
+
+== CONTRIBUTORS
+Josh Adams (http://isotope11.com - josh AT isotope11.com)
