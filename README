@@ -17,5 +17,18 @@ potential, do the following:
 
 The thread will then enter a loop, so leave the console.  Send a message to your jabber user, and observe as your site gets updated.
 
+
+== Alternate summary
+
+
+http://github.com/knewter/jabber_microblogging/tree/master
+
+This is released under an OISLOCDFABRASDWYWWI* license.  What does it do?
+
+- Hooks onto a given jabber account**
+- Puts all posts to that account in a blog (index/show) style listing, newest first.
+
+That's all.  Use it for a microblogging app.  Use it to see how to write a really basic Jabber Client.  If you want more fun Jabber, you can check out https://github.com/knewter/jabber_client/tree for a real-time browser-based jabber client
+
 == CONTRIBUTORS
 Josh Adams (http://isotope11.com - josh AT isotope11.com)
