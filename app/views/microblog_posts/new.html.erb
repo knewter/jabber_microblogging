@@ -1,0 +1,21 @@
+<h1>New microblog_post</h1>
+
+<%= error_messages_for :microblog_post %>
+
+<% form_for(@microblog_post) do |f| %>
+  <p>
+    <b>Content</b><br />
+    <%= f.text_area :content %>
+  </p>
+
+  <p>
+    <b>Created at</b><br />
+    <%= f.datetime_select :created_at %>
+  </p>
+
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', microblog_posts_path %>
