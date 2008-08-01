@@ -5,8 +5,8 @@ microblogging site.  For now it's a proof-of-concept (meaning: there's
 no daemon written yet.  This would take two lines of code.).  To see the
 potential, do the following:
 
-- Run the migrations
 - Run rake gems:install to install xmpp4r and xmpp4r-simple, if you don't already have them.
+- Run the migrations
 - Run script/server
 - Set the environment variables JABBER_LOGIN and JABBER_PASSWORD to the jabber user you'd like to serve as the site-entry point.  If you don't know what this means, register for a google talk account specifically for this site, and use those credentials.
 - Run script/console
